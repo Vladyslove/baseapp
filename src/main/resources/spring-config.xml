@@ -1,0 +1,25 @@
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+       <context:annotation-config />
+       <context:component-scan base-package="com.baseapp" />
+
+    &lt;!&ndash; 2: Spring Application withAnnotations Configuration (added 5 lines with that include 'context'&ndash;&gt;
+
+    &lt;!&ndash;
+    &lt;!&ndash; 1: Spring Application with XML Configuration&ndash;&gt;
+<bean id="studentDAO" class="com.baseapp.dao.StudentDAOImpl"/>
+<bean name="universityService" class="com.baseapp.service.UniversityServiceImpl"
+      autowire="byType">
+    &lt;!&ndash;<property name="StudentDAO" ref="studentDAO"/>&ndash;&gt;
+    &lt;!&ndash;<constructor-arg index="0" ref="studentDAO"/>&ndash;&gt;
+</bean>
+&ndash;&gt;
+</beans>-->
